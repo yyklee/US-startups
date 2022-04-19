@@ -135,8 +135,8 @@ ALTER TABLE bds_sec_fage  DROP COLUMN job_creation_births,
 --            fage, 
 --            IF(CAST(firms AS UNSIGNED) = 0, NULL, CAST(firms AS UNSIGNED)) as firms,
 --            IF(CAST(estabs AS UNSIGNED) = 0, NULL, CAST(estabs AS UNSIGNED)) as estabs,
--- 		   IF(CAST(emp AS UNSIGNED) = 0, NULL, CAST(emp AS UNSIGNED)) as emp,
--- 		   IF(CAST(estabs_entry AS UNSIGNED) = 0, NULL, CAST(estabs_entry AS UNSIGNED)) as estabs_entry,
+-- 	      IF(CAST(emp AS UNSIGNED) = 0, NULL, CAST(emp AS UNSIGNED)) as emp,
+-- 	      IF(CAST(estabs_entry AS UNSIGNED) = 0, NULL, CAST(estabs_entry AS UNSIGNED)) as estabs_entry,
 --            IF(CAST(estabs_entry_rate AS UNSIGNED) = 0, NULL, CAST(estabs_entry_rate AS UNSIGNED)) as estabs_entry_rate,
 --            IF(CAST(estabs_exit AS UNSIGNED) = 0, NULL, CAST(estabs_exit AS UNSIGNED)) as estabs_exit,
 --            IF(CAST(estabs_exit_rate AS UNSIGNED) = 0, NULL, CAST(estabs_exit_rate AS UNSIGNED)) as estabs_exit_rate,
@@ -146,21 +146,11 @@ ALTER TABLE bds_sec_fage  DROP COLUMN job_creation_births,
 
 -- );
 -- Select *
--- From bds_sec_fage_R;
+-- From bds19_sec_fage;
 
--- create table cte
--- (
--- Select year, 
---            sector,
---            fage, 
---            IF(CAST(firms AS UNSIGNED) = 0, NULL, firms) as firms 
---            from bds_sec_Fa
--- );
--- Select *
--- From cte;
 
---  -- ALTER TABLE bds_sec_fa   
--- 				MODIFY firms INT,          
+--  -- ALTER TABLE bds19_sec_fage 
+-- 		   MODIFY firms INT,          
 --                 MODIFY estabs INT,         
 --                 MODIFY emp INT,         
 --                 MODIFY estabs_entry INT,         
@@ -170,6 +160,5 @@ ALTER TABLE bds_sec_fage  DROP COLUMN job_creation_births,
 --                 MODIFY job_creation INT,         
 --                 MODIFY job_destruction INT;
 
--- SHOW COLUMNS FROM bds_sec_fa; 
 
 
