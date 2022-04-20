@@ -1,6 +1,6 @@
 # USstartups
 
-### The general outline of the notebooks in this repo is as follows:
+### The general outline of the notebooks:
 1. [bds_data_cleaning.sql](https://github.com/yyklee/US-startups/blob/main/bds_data_cleaning.sql): Cleaning BDS data for analysis
 2. [bds_data_exploration.sql](https://github.com/yyklee/US-startups/blob/main/bds_data_exploration.sql): Initial Exploration of BDS data 
 3. [bds2019_st_sec.csv](https://github.com/yyklee/US-startups/blob/main/bds2019_st_sec.csv): BDS dataset sector by states (1978-2019)
