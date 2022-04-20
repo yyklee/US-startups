@@ -9,8 +9,8 @@
 6. [tab_viz](https://public.tableau.com/views/USstartups/1_1?:language=ko-KR&:display_count=n&:origin=viz_share_link): Dashboard 
 
 ### The goal of this project was to practice:
-1. practice basic and advanced SQL codes (e.g., group by, joins, ctes, subqueries)
-2. explore data of interest
+1. basic and advanced SQL codes (e.g., group by, joins, ctes, subqueries)
+2. exploring data of interest
 3. visualizations 
 
 *Data obtained from: https://www.census.gov/programs-surveys/bds.html*
